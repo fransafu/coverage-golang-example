@@ -4,6 +4,7 @@ This is a basic example to show how we can run the coverage in a golang program?
 
 the `storage_test.go` contains the test for `storage.go` and cover the 100% methods declared.
 
+```
 .
 ├── README.md
 ├── cmd
@@ -15,6 +16,7 @@ the `storage_test.go` contains the test for `storage.go` and cover the 100% meth
         ├── storage.go
         ├── storage_test.go
         └── user.go
+```
 
 # How I run the program?
 
