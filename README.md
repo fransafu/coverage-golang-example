@@ -21,11 +21,11 @@ the `storage_test.go` contains the test for `storage.go` and cover the 100% meth
 # How I run the program?
 
 First, install dependencies
-* go mod download
+* `go mod download`
 
 Second, run the main program
-* go run cmd/main.go
+* `go run cmd/main.go`
 
 Finally, run the coverage and inspect it in your browser
-* go test -coverprofile=coverage.out ./...
-* go tool cover -html=coverage.out
+* `go test -coverprofile=coverage.out ./...`
+* `go tool cover -html=coverage.out`
